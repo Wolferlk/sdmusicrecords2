@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center">
-              <Music className="h-8 w-8 text-purple-500" />
+            <img src="src/img/WHITE BALL LOGO .png" className="h-8 w-8" alt="" />
               <span className="ml-2 text-xl font-bold">SD MUSIC RECORDS</span>
             </div>
             <p className="text-gray-400">
-              Shaping the future of music through innovation and artistic excellence
+              Where Your Sounds Come To Life
             </p>
           </div>
           
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Sonic Realm. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SD MUSIC RECORDS. All rights reserved.</p>
         </div>
       </div>
     </footer>

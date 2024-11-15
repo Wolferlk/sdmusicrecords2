@@ -12,21 +12,21 @@ const Contact = () => {
               <MapPin className="w-6 h-6 text-purple-500 mt-1" />
               <div>
                 <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
-                <p className="text-gray-400">123 Music Avenue<br />Los Angeles, CA 90028</p>
+                <p className="text-gray-400">24a Pokuna Road <br />Keraminiya, Ambalangoda <br /> Galle ,Sri Lanka.</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <Phone className="w-6 h-6 text-purple-500 mt-1" />
               <div>
                 <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-                <p className="text-gray-400">+1 (323) 555-0123</p>
+                <p className="text-gray-400">+94 77 823 1121</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <Mail className="w-6 h-6 text-purple-500 mt-1" />
               <div>
                 <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-                <p className="text-gray-400">contact@sonicrealm.com</p>
+                <p className="text-gray-400">contact.sdmusicrecords.com</p>
               </div>
             </div>
           </div>

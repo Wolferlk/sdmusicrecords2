@@ -15,11 +15,12 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed w-full bg-black/90 backdrop-blur-sm z-50">
+    <nav className="fixed w-full bg-black/50 backdrop-blur-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center">
-            <Music className="h-8 w-8 text-red-600" />
+            {/* <Music className="h-8 w-8 text-red-600" />*/}
+            <img src="src/img/WHITE BALL LOGO .png" className="h-8 w-8" alt="" />
             <span className="ml-2 text-xl font-bold">SD MUSIC RECORDS</span>
           </Link>
           
@@ -47,7 +48,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black/60 backdrop-blur-md">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
