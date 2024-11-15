@@ -5,27 +5,36 @@ const Artists = () => {
   const scrollContainerRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
 
+  const itemsToShow = 5;  // Number of items to show at once
+  const itemWidth = 256;  // Fixed width of each artist item (w-64)
+  
   // Auto-scroll functionality
   useEffect(() => {
     const scrollContainer = scrollContainerRef.current;
+    
+    if (!scrollContainer) return;
 
     // Function to auto-scroll
     const autoScroll = () => {
-      if (scrollContainer) {
-        const containerWidth = scrollContainer.offsetWidth;
-        const scrollAmount = containerWidth / 5; // Scroll by one artist's width
-        scrollContainer.scrollBy({
-          left: scrollAmount, // Scroll by one item
-          behavior: 'smooth',
-        });
+      const containerWidth = scrollContainer.offsetWidth;
+      const maxScrollPosition = (artistsData.length - itemsToShow) * itemWidth;
+
+      // Scroll by one set of items
+      const nextScrollPosition = scrollPosition + itemWidth * itemsToShow;
+
+      // If we reach the end of the list, loop back to the beginning
+      if (nextScrollPosition > maxScrollPosition) {
+        setScrollPosition(0);
+      } else {
+        setScrollPosition(nextScrollPosition);
       }
     };
 
-    // Set an interval for auto-scrolling
-    const scrollInterval = setInterval(autoScroll, 3000); // Adjust interval for smoothness (e.g., scroll every 3 seconds)
+    // Set an interval for auto-scrolling every 3 seconds
+    const scrollInterval = setInterval(autoScroll, 3000);
 
     return () => clearInterval(scrollInterval); // Cleanup on unmount
-  }, []);
+  }, [scrollPosition]);
 
   return (
     <section id="artists" className="py-20 bg-black">
@@ -36,8 +45,8 @@ const Artists = () => {
           className="flex space-x-8 overflow-x-auto cursor-grab"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
-          {/* Limit to 5 visible items at a time */}
-          {artistsData.slice(scrollPosition, scrollPosition + 5).map((artist, index) => (
+          {/* Rendering the 5 visible artists at a time */}
+          {artistsData.slice(scrollPosition / itemWidth, (scrollPosition + itemWidth * itemsToShow) / itemWidth).map((artist, index) => (
             <div
               key={index}
               className="group relative w-64" // Fixed width for each artist item
