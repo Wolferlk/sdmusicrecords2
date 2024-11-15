@@ -22,7 +22,7 @@ const StudioPricing = () => {
     },
     {
       name: 'Original Song',
-      price: 'LKR 35 000/=',
+      price: 'LKR 45 000/=',
       duration: ' ',
       features: [
         '🔥 Music Compposing ',
