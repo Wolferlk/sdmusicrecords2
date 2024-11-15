@@ -61,7 +61,7 @@ const JoinLabel = () => {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <h1 className="text-4xl font-bold text-center mb-4">Join Our Label</h1>
         <p className="text-xl text-center text-gray-400 mb-12">
-          Take your music career to the next level with Sonic Realm
+          Take your music career to the next level with SD MUSIC RECORDS
         </p>
         
         <form onSubmit={handleSubmit} className="space-y-6">

@@ -22,7 +22,7 @@ const StudioPricing = () => {
     },
     {
       name: 'Original Song',
-      price: '35 000/=',
+      price: 'LKR 35 000/=',
       duration: ' ',
       features: [
         '🔥 Music Compposing ',
@@ -42,7 +42,7 @@ const StudioPricing = () => {
     {
       name: 'Cover Song with Video ',
       price: 'LKR 25 000/=',
-      duration: 'With Video',
+      duration: ' ',
       features: [
         '🔥 Re-Arrenge Music Track  ',
         '🔥 Mixing & MAstering',
@@ -59,20 +59,48 @@ const StudioPricing = () => {
       
     },
     {
-      name: 'Enterprise',
-      price: 199,
+      name: 'Recording',
+      price: 'LKR 1700/=',
       duration: 'per hour',
       features: [
         'Luxury Recording Suite',
-        'Premium Mixing & Mastering',
-        'Unlimited Revisions',
-        'Global Distribution',
-        'Music Video Production',
-        'Full Marketing Campaign',
-        'Radio Promotion',
+        'Raw Audio Tracks',
+        'We Transfer Downloadble Link',
       ],
       
     },
+    {
+      name: 'Karaoke Recordings',
+      price: 'LKR 3 500/=' ,
+      duration: ' ',
+      features: [
+        'Voice Recording (1 hour) ',
+        'Basic Mix And Mastering',
+        'We Transfer Downloadble Link',
+        'Additional Vocal or Instrumental Recording Hour: LKR 1500 per hour.',
+        '⭕ Studio Video LKR 5000 /= (Additional)',
+      ],
+      
+    }, {
+      name: 'Video Production',
+      price: 'LKR 35 000/=',
+      duration: ' ',
+      features:  [
+        '🔥 Script Writing: Custom script written for your video concept.',
+        '🔥 Filming (One day): Includes video shoot with a professional crew.',
+        '🔥 Digital Video Editing: High-quality editing to create a polished final video.',
+        '🔥 Color Grading: Enhancing the video with professional color correction.',
+        '🔥 Additional Filming Hours: LKR 15 000 for Extra Day shooting.',
+        '🔥 Professional Motion Graphics: LKR 5000 for adding motion graphics to the video.',
+        '⭕ Studio/Location Setup: We provide studio setup or location scouting; you may choose your preferred location.',
+        '⭕ Production Time: Expect to finish production within 2-3 weeks after confirmation.',
+        '🛑 Reordering Fee: If reordering is required due to your mistake, it will cost LKR 1000 per hour.',
+        '⭕ Advance Payment: LKR 15 000 advance is required to confirm your booking.',
+        '⭕ Advance Policy: Advance payment will never be refunded.',
+      ],
+      popular: true,
+    },
+    
   ];
 
   return (
@@ -100,7 +128,7 @@ const StudioPricing = () => {
               )}
               <h3 className="text-2xl font-bold mt-4">{plan.name}</h3>
               <div className="mt-4 flex items-baseline">
-                <span className="text-4xl font-bold">${plan.price}</span>
+                <span className="text-4xl font-bold">{plan.price}</span>
                 <span className="ml-2 text-gray-400">{plan.duration}</span>
               </div>
               <ul className="mt-6 space-y-4">
