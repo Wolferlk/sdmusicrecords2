@@ -20,10 +20,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center">
             {/* <Music className="h-8 w-8 text-red-600" />*/}
-            <img src="src/img/WHITE BALL LOGO .png" className="h-8 w-8" alt="" />
+            <img src="https://yt3.googleusercontent.com/mbvORp0W0_yNe3-atAfKdPmpaqX4DiWBhTIN2z510M57cQ32EyPcHvCrxsmaxf_NPuX0m6JVqw=s160-c-k-c0x00ffffff-no-rj" className="h-8 w-8" alt="" />
             <span className="ml-2 text-xl font-bold">SD MUSIC RECORDS</span>
           </Link>
-          
+
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {navLinks.map((link) => (
@@ -37,7 +37,7 @@ const Navbar = () => {
               ))}
             </div>
           </div>
-          
+
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="text-white">
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
