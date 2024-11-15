@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-4">
         <center>
         <img
-          src='src\img\SD MUSIC RECORDS FRONT 1.png' width={600} />
+          src='https://i.ibb.co/VVjnRYq/SD-MUSIC-RECORDS-FRONT-1.png' width={600} />
           </center>
         <p className="text-xl md:text-2xl mb-8 mt-5 max-w-2xl mx-auto">
         Elevating Sri Lankan Music to Global Heights: Crafting the Future of Sound and Careers
