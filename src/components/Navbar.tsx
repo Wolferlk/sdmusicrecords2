@@ -9,8 +9,10 @@ const Navbar = () => {
     { path: '/', label: 'Home' },
     { path: '/artists', label: 'Artists' },
     { path: '/releases', label: 'Releases' },
-    { path: '/studio-pricing', label: 'Studio' },
+    { path: '/studio-pricing', label: 'Pricing' },
     { path: '/submit-demo', label: 'Submit Demo' },
+    { path: '/allstudios', label: 'Studios' },
+    { path: '/aboutus', label: 'About Us' },
     { path: '/join-label', label: 'Join Label' },
   ];
 

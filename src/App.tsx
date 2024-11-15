@@ -6,9 +6,12 @@ import Home from './pages/Home';
 import AllArtists from './pages/AllArtists';
 import ArtistDetails from './pages/ArtistDetails';
 import AllReleases from './pages/AllReleases';
+import AllStudios from './pages/AllStudios';  
+import StudioProfile from './pages/Studiosdetails'; 
 import ReleaseDetails from './pages/ReleaseDetails';
 import StudioPricing from './pages/StudioPricing';
 import SubmitDemo from './pages/SubmitDemo';
+import AboutUs from './pages/AboutUs';
 import JoinLabel from './pages/JoinLabel';
 
 function App() {
@@ -24,7 +27,10 @@ function App() {
           <Route path="/releases/:id" element={<ReleaseDetails />} />
           <Route path="/studio-pricing" element={<StudioPricing />} />
           <Route path="/submit-demo" element={<SubmitDemo />} />
+          <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/join-label" element={<JoinLabel />} />
+          <Route path="/allstudios" element={<AllStudios />} />
+          <Route path="/allstudios/:id" element={<StudioProfile />} />
         </Routes>
         <Footer />
       </div>
