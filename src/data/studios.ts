@@ -91,17 +91,17 @@ export const studiosData = [
     ]
   },{
     id: 'OrigaStudio',
-    name: 'SD MUSIC RECORDS STUDIO',
-    genre: 'Indie Rock, Synthwave',
+    name: 'Origa Studio',
+    genre: 'Recording Studio , Podcasting Studio, Dubbing Studio ',
     spot: 'https://open.spotify.com/embed/artist/3XkzNpTgdEYYXY9nLCt5qR?utm_source=generator&theme=0',
     yts: 'https://www.youtube.com/embed/SOME_VIDEO_ID?si=abcdef12345',
-    image: 'https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/448702778_18031654454316982_6571772126618978802_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHPnJnqu3w23XhJn6A2MZgCRzWKE7dU1htHNYoTt1TWGxZQ2DqWu4iXpVJ2WQsIhTXso02L8j09CTU5KiVeKxrb&_nc_ohc=n7HAd-MnyI0Q7kNvgEvwCph&_nc_zt=23&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=AJ8fyUEFVXzkBstcjR0jOOS&oh=00_AYB9JsQcRS4hLj9_FebdofewTN_CQ0UCNzQepw0MsNiOtQ&oe=673D2374', // Main image for general use
+    image: 'https://www.gearank.com/wp-content/uploads/files/field/image/home-recording-studio.jpg', // Main image for general use
     images: [  // Array of images for the carousel
       'https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/448702778_18031654454316982_6571772126618978802_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHPnJnqu3w23XhJn6A2MZgCRzWKE7dU1htHNYoTt1TWGxZQ2DqWu4iXpVJ2WQsIhTXso02L8j09CTU5KiVeKxrb&_nc_ohc=n7HAd-MnyI0Q7kNvgEvwCph&_nc_zt=23&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=AJ8fyUEFVXzkBstcjR0jOOS&oh=00_AYB9JsQcRS4hLj9_FebdofewTN_CQ0UCNzQepw0MsNiOtQ&oe=673D2374',
       'https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/449443386_18032398424316982_2889579893272413508_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF2k-IhByARJZxSCuDvbbk17VC87QZQ4QjtULztBlDhCMNR9OI8A9wnGRblWmf9kO64bac3kkIfzZV13NKIZG1m&_nc_ohc=3TWMpQ4YiIUQ7kNvgG4m6Y_&_nc_zt=23&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=AWcBLn-gKJB4TeEI7_Lv1LN&oh=00_AYBEI0BNrEuJ9babC3s7dFTNhEm3uIKs4-u9r0DDXrtjLg&oe=673D2EC7',
       'https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/449450161_18032397788316982_5786503410309689705_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGzg2OgQk8XBKEHIQSEEZm_bO8C3gmlc-Bs7wLeCaVz4AwEdZe-s-WVQlFsqcOQLXp88e5MYEJlWV4b5e-Rxh93&_nc_ohc=o5GgNDkr7TEQ7kNvgFuzcsr&_nc_zt=23&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=Ao1iWXPERntwKmLgA6TTFRo&oh=00_AYAqGuZf3am5C9zP-a7Twiu8AXjClFY5ImCWvYcpFUj1Fg&oe=673D29C5'
     ],
-    coverImage: 'https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/448702778_18031654454316982_6571772126618978802_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHPnJnqu3w23XhJn6A2MZgCRzWKE7dU1htHNYoTt1TWGxZQ2DqWu4iXpVJ2WQsIhTXso02L8j09CTU5KiVeKxrb&_nc_ohc=n7HAd-MnyI0Q7kNvgEvwCph&_nc_zt=23&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=AJ8fyUEFVXzkBstcjR0jOOS&oh=00_AYB9JsQcRS4hLj9_FebdofewTN_CQ0UCNzQepw0MsNiOtQ&oe=673D2374',
+    coverImage: 'https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/299656914_474270458039930_1577676511964767152_n.png?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFixIdvaFwyrivPDnfGX7wpcDZbkMlFGfFwNluQyUUZ8Vj7Ei6wV1wr0Zj-0mn9L9lD2IZCQyeikUFWQsZ3kA0H&_nc_ohc=XCMe0Mt1egMQ7kNvgEcb4oK&_nc_zt=23&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=A0qbhudD_WDI8EI_hhx-41k&oh=00_AYBrYT1_MiyiSTV4Wc85LliZeZPr5pWpsqRyrevkoY-kLA&oe=673D592D',
     location: '123 Sunset Blvd, Los Angeles, CA 90001',  // Add the location address
     equipment: [
       'Analog Synthesizers',
