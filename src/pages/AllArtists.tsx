@@ -12,6 +12,7 @@ const AllArtists = () => {
             <Link 
               to={`/artists/${artist.id}`} 
               key={artist.id}
+
               className="group"
             >
               <div className="relative overflow-hidden rounded-lg aspect-square">

@@ -1,58 +1,51 @@
 export const releasesData = [
   {
-    id: 'neon-dreams',
-    title: 'Neon Dreams',
-    artist: 'Luna Eclipse',
-    type: 'album',
-    cover: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80',
-    description: 'A groundbreaking electronic pop album that pushes the boundaries of contemporary music. Featuring innovative sound design and ethereal vocals.',
+    id: 'Ran_Samanalayo',
+    title: 'Ran Samanalayo',
+    artist: 'We Are Brothers',
+    type: 'Single',
+    cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/30/7f/43307f1b-d791-3e31-4480-fe4e66e3a74e/5063561364399_cover.jpg/316x316bb.webp',
+    description: 'Cover song By We are Brothers . original song by sunil edirisinghe  ',
     tracks: [
-      { title: 'Digital Dawn', duration: '3:45' },
-      { title: 'Cyber Heart', duration: '4:12' },
-      { title: 'Neon City Lights', duration: '3:58' },
-      { title: 'Electric Dreams', duration: '4:30' },
-      { title: 'Binary Sunset', duration: '5:15' }
+      { title: 'Ran Samanalayo', duration: '3:45' },
+      { title: 'Ran Samanalayo(Radio Mix)', duration: '4:12' }
+      
     ]
   },
   {
-    id: 'midnight-hour',
-    title: 'Midnight Hour',
-    artist: 'Midnight Pulse',
-    type: 'album',
-    cover: 'https://images.unsplash.com/photo-1571330735066-03aaa9429d89?auto=format&fit=crop&q=80',
+    id: 'Bhawa_Satana',
+    title: 'Bhawa Satana',
+    artist: 'Deneth Viduranga & Wolfer',
+    type: 'Single',
+    cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b5/7d/c1/b57dc1b2-ea79-d9a4-dd48-926f3ac1f238/198595457900.jpg/316x316bb.webp',
     description: 'A powerful alternative rock album that combines heavy riffs with introspective lyrics. A journey through the darkness to find light.',
     tracks: [
       { title: 'Midnight Calling', duration: '4:15' },
-      { title: 'Dark Matter', duration: '3:45' },
-      { title: 'Pulse of the Night', duration: '5:00' },
-      { title: 'Shadow Dance', duration: '4:30' },
-      { title: 'Dawn Breaks', duration: '6:20' }
+      { title: 'Dark Matter', duration: '3:45' }
     ]
   },
   {
-    id: 'mountain-song',
-    title: 'Mountain Song',
-    artist: 'Echo Valley',
+    id: 'Premiye_Nuba',
+    title: 'Premiye Nuba',
+    artist: 'Seniru Ruvith',
     type: 'single',
-    cover: 'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&q=80',
+    cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/c2/4e/abc24ee5-7936-aed0-249d-6ef6217d86be/5063440224776_cover.jpg/316x316bb.webp',
     description: 'A heartfelt indie folk single that captures the essence of nature and human connection. Features beautiful harmonies and acoustic arrangements.',
     tracks: [
-      { title: 'Mountain Song', duration: '4:30' },
-      { title: 'Mountain Song (Acoustic)', duration: '4:15' },
-      { title: 'Mountain Song (Live)', duration: '4:45' }
+      { title: 'Premiye Nuba', duration: '4:30' },
+      { title: 'Premiye Nuba (Acoustic)', duration: '4:15' }
     ]
   },
   {
     id: 'electric-soul',
-    title: 'Electric Soul',
-    artist: 'Luna Eclipse',
+    title: 'Unusum Ra',
+    artist: 'Wolfer & Oshen Walimuni',
     type: 'single',
-    cover: 'https://images.unsplash.com/photo-1504898770365-14faca6a7320?auto=format&fit=crop&q=80',
+    cover: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c7/45/6b/c7456b90-809a-a900-3b71-1a26e4095818/5063341185367_cover.jpg/316x316bb.webp',
     description: 'A pulsating electronic single that showcases Luna Eclipse\'s signature sound. Features cutting-edge production and memorable hooks.',
     tracks: [
-      { title: 'Electric Soul', duration: '3:45' },
-      { title: 'Electric Soul (Club Mix)', duration: '5:30' },
-      { title: 'Electric Soul (Acoustic)', duration: '3:30' }
+      { title: 'Unusum Ra', duration: '3:45' },
+      { title: 'Unusum Ra (Accoustic)', duration: '3:45' }
     ]
   }
 ];

@@ -4,29 +4,59 @@ import { Check } from 'lucide-react';
 const StudioPricing = () => {
   const plans = [
     {
-      name: 'Basic',
-      price: 49,
-      duration: 'per hour',
+      name: 'Cover Song',
+      price: 'LKR 20 000' ,
+      duration: 'Song Only',
       features: [
-        'Professional Recording Room',
-        'Basic Mixing',
-        'Up to 2 Revisions',
-        'Digital Distribution',
+        '🔥 Re-Arrenge Music Track  ',
+        '🔥 Mixing & MAstering',
+        '🔥 Professional Voice Recording ',
+        '🔥 Digital Distribution',
+        '🔥 Live Guitars: LKR 5000 to add live guitars to the track.',
+        '⭕ Live Instrument Players: If you want to add live instruments, you must import the players and pay for their session.',
+        '⭕ Production Time: Expect to finish production in the second or third week after confirmation.',
+        '🛑 Reordering Fee: If reordering is required due to your mistake, it will cost LKR 1000 per hour.',
+        '⭕ Advance Payment: LKR 10 000 advance is required to confirm your booking.',
+        '⭕ Advance Policy: Advance payment will never be refunded.'
       ],
     },
     {
-      name: 'Pro',
-      price: 99,
-      duration: 'per hour',
+      name: 'Original Song',
+      price: '35 000/=',
+      duration: ' ',
       features: [
-        'Premium Recording Suite',
-        'Advanced Mixing & Mastering',
-        'Unlimited Revisions',
-        'Digital Distribution',
-        'Music Video Production',
-        'Marketing Support',
+        '🔥 Music Compposing ',
+        '🔥 Vocal Recording (4 hours)',
+        '🔥 Digital Mix & Mastering',
+        '🔥 Additional Vocal or Instrumental Recording Hour: LKR 1500 per hour.',
+        '🔥 Melody Creation: LKR 5000 for melody addition.',
+        '🔥 Live Guitars: LKR 5000 to add live guitars to the track.',
+        '⭕ Live Instrument Players: If you want to add live instruments, you must import the players and pay for their session.',
+        '⭕ Production Time: Expect to finish production in the third or fourth week after confirmation.',
+        '🛑 Reordering Fee: If reordering is required due to your mistake, it will cost LKR 1000 per hour.',
+        '⭕ Advance Payment: LKR 15 000 advance is required to confirm your booking.',
+        '⭕ Advance Policy: Advance payment will never be refunded.',
       ],
       popular: true,
+    },
+    {
+      name: 'Cover Song with Video ',
+      price: 'LKR 25 000/=',
+      duration: 'With Video',
+      features: [
+        '🔥 Re-Arrenge Music Track  ',
+        '🔥 Mixing & MAstering',
+        '🔥 Professional Voice Recording ',
+        '🔥 Studio Video Recording & Edit  ',
+        '🔥 Digital Distribution',
+        '🔥 Live Guitars: LKR 5000 to add live guitars to the track.',
+        '⭕ Live Instrument Players: If you want to add live instruments, you must import the players and pay for their session.',
+        '⭕ Production Time: Expect to finish production in the second or third week after confirmation.',
+        '🛑 Reordering Fee: If reordering is required due to your mistake, it will cost LKR 1000 per hour.',
+        '⭕ Advance Payment: LKR 10 000 advance is required to confirm your booking.',
+        '⭕ Advance Policy: Advance payment will never be refunded.'
+      ],
+      
     },
     {
       name: 'Enterprise',
@@ -41,6 +71,7 @@ const StudioPricing = () => {
         'Full Marketing Campaign',
         'Radio Promotion',
       ],
+      
     },
   ];
 
