@@ -4,7 +4,7 @@ export const artistsData = [
     id: 'Denethwiduranga',
     name: 'DenethViduranga',
     genre: 'Drum&Bass',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfuzbv_2VnNamEHJXGnThsEJFlmHWrBVpfiQ&s',
+    image: 'https://i.ibb.co/FHqY0VX/466021815-18293478088229321-4523986414111524634-n.jpg',
     coverImage: 'https://i.ytimg.com/vi/0jhWgCxbEY8/maxresdefault.jpg',
     bio: 'Echo Valley brings a fresh perspective to indie folk with their harmony-rich arrangements and storytelling approach. The duo met at a local coffee shop\'s open mic night and immediately connected over their shared love of folk music.\n\nTheir acoustic-driven sound and authentic lyrics have earned them spots at major folk festivals across the country. Their latest EP showcases their evolution as artists while staying true to their roots.',
     social: {
@@ -73,6 +73,29 @@ export const artistsData = [
     yts:'https://www.youtube.com/embed/w7dRjYu2iVE?rel=0&start=42',
     image: 'https://i.ibb.co/wCz1HQT/340562583-782232956747235-4653149904035357005-n.jpg',
     coverImage: 'https://i.ibb.co/vPkBgW4/361628549-1681522635647755-8014796796058736419-n.jpg',
+    bio: "Meet Wolfer, the dynamic DJ/Producer, composer, and mentor from Sri Lanka. Born in 2001, his musical journey started at 14, fueled by an unyielding passion.Specializing in Dance/Electronic, Future Bass, House Music, and EDM, Wolfer collaborates with Sri Lanka's top artists. In 2023, he showcased his brilliance in the Rider film, directed by Rajith Hiran and produced by Anushka Idunil.As founder of SD MUSIC RECORDS and owner of a cutting-edge studio, Wolfer mentors emerging artists, sharing his wisdom. With a degree in Electronic Music Composition and advanced mixing/mastering, he collaborates with industry giants.In 2024, Wolfer's first live show for 3000 fans marked a milestone, showcasing his electrifying stage presence. This solidified his status as a force in electronic music. Embark on Wolfer's sonic journey, where beats tell stories and notes resonate with passion.",
+    social: {
+      instagram: 'https://instagram.com/midnightpulse',
+      twitter: 'https://twitter.com/midnightpulse',
+      youtube: 'https://youtube.com/midnightpulse'
+    },
+    website: 'https://midnightpulse.com',
+    releases: [
+      // {
+      //   id: 'midnight-hour',
+      //   title: 'Midnight Hour',
+      //   cover: 'https://images.unsplash.com/photo-1571330735066-03aaa9429d89?auto=format&fit=crop&q=80',
+      //   year: '2023'
+      // }
+    ]
+  },{
+    id: 'Ramithabandaranayeka',
+    name: 'Ramitha Bandaranayeka',
+    genre: ' Pop , Techno,Drum & Bass ',
+    spot:'https://open.spotify.com/embed/artist/1BDgRUInxjvI7BrgASGJUd?utm_source=generator'   ,
+    yts:'https://www.youtube.com/embed/w7dRjYu2iVE?rel=0&start=42',
+    image: 'https://i.ibb.co/WnCQvZp/469185166-122128038284511510-312984325073193148-n.jpg',
+    coverImage: 'https://i.ibb.co/QMV1gzK/148077708-1345256382498620-5453024303158319403-n.jpg',
     bio: "Meet Wolfer, the dynamic DJ/Producer, composer, and mentor from Sri Lanka. Born in 2001, his musical journey started at 14, fueled by an unyielding passion.Specializing in Dance/Electronic, Future Bass, House Music, and EDM, Wolfer collaborates with Sri Lanka's top artists. In 2023, he showcased his brilliance in the Rider film, directed by Rajith Hiran and produced by Anushka Idunil.As founder of SD MUSIC RECORDS and owner of a cutting-edge studio, Wolfer mentors emerging artists, sharing his wisdom. With a degree in Electronic Music Composition and advanced mixing/mastering, he collaborates with industry giants.In 2024, Wolfer's first live show for 3000 fans marked a milestone, showcasing his electrifying stage presence. This solidified his status as a force in electronic music. Embark on Wolfer's sonic journey, where beats tell stories and notes resonate with passion.",
     social: {
       instagram: 'https://instagram.com/midnightpulse',
@@ -184,6 +207,29 @@ export const artistsData = [
       }
     ]
   }, {
+    id: 'Oshenwalimuni',
+    name: 'Oshen Walimuni',
+    genre: 'Edm , Pop , Accoustic',
+    spot:'https://open.spotify.com/embed/artist/1BDgRUInxjvI7BrgASGJUd?utm_source=generator'   ,
+    yts:'https://www.youtube.com/embed/w7dRjYu2iVE?rel=0&start=42',
+    image: 'https://i.ibb.co/qRfvVpK/350922956-133971419694715-4034784353429481613-n.jpg',
+    coverImage: 'https://i.ibb.co/QMV1gzK/148077708-1345256382498620-5453024303158319403-n.jpg',
+    bio: "Meet Wolfer, the dynamic DJ/Producer, composer, and mentor from Sri Lanka. Born in 2001, his musical journey started at 14, fueled by an unyielding passion.Specializing in Dance/Electronic, Future Bass, House Music, and EDM, Wolfer collaborates with Sri Lanka's top artists. In 2023, he showcased his brilliance in the Rider film, directed by Rajith Hiran and produced by Anushka Idunil.As founder of SD MUSIC RECORDS and owner of a cutting-edge studio, Wolfer mentors emerging artists, sharing his wisdom. With a degree in Electronic Music Composition and advanced mixing/mastering, he collaborates with industry giants.In 2024, Wolfer's first live show for 3000 fans marked a milestone, showcasing his electrifying stage presence. This solidified his status as a force in electronic music. Embark on Wolfer's sonic journey, where beats tell stories and notes resonate with passion.",
+    social: {
+      instagram: 'https://instagram.com/midnightpulse',
+      twitter: 'https://twitter.com/midnightpulse',
+      youtube: 'https://youtube.com/midnightpulse'
+    },
+    website: 'https://midnightpulse.com',
+    releases: [
+      // {
+      //   id: 'midnight-hour',
+      //   title: 'Midnight Hour',
+      //   cover: 'https://images.unsplash.com/photo-1571330735066-03aaa9429d89?auto=format&fit=crop&q=80',
+      //   year: '2023'
+      // }
+    ]
+  }, {
     id: 'Paramiumayanga',
     name: 'Parami Umayanga',
     genre: 'Pop , Accoustic',
@@ -230,13 +276,13 @@ export const artistsData = [
       // }
     ]
   }, {
-    id: 'Vishvidilthara',
-    name: 'Vishvi Dilthara',
+    id: 'Dahami Dananjana',
+    name: 'Dahami Dananjana',
     genre: 'Pop , Accoustic',
     spot:'https://open.spotify.com/embed/artist/1BDgRUInxjvI7BrgASGJUd?utm_source=generator'   ,
     yts:'https://www.youtube.com/embed/w7dRjYu2iVE?rel=0&start=42',
-    image: 'https://i.ibb.co/wCz1HQT/340562583-782232956747235-4653149904035357005-n.jpg',
-    coverImage: 'https://i.ibb.co/vPkBgW4/361628549-1681522635647755-8014796796058736419-n.jpg',
+    image: 'https://i.ibb.co/ZYgYMfQ/321517748-1293435931260521-8947210038663448162-n.jpg',
+    coverImage: 'https://i.ibb.co/ZYgYMfQ/321517748-1293435931260521-8947210038663448162-n.jpg',
     bio: "Meet Wolfer, the dynamic DJ/Producer, composer, and mentor from Sri Lanka. Born in 2001, his musical journey started at 14, fueled by an unyielding passion.Specializing in Dance/Electronic, Future Bass, House Music, and EDM, Wolfer collaborates with Sri Lanka's top artists. In 2023, he showcased his brilliance in the Rider film, directed by Rajith Hiran and produced by Anushka Idunil.As founder of SD MUSIC RECORDS and owner of a cutting-edge studio, Wolfer mentors emerging artists, sharing his wisdom. With a degree in Electronic Music Composition and advanced mixing/mastering, he collaborates with industry giants.In 2024, Wolfer's first live show for 3000 fans marked a milestone, showcasing his electrifying stage presence. This solidified his status as a force in electronic music. Embark on Wolfer's sonic journey, where beats tell stories and notes resonate with passion.",
     social: {
       instagram: 'https://instagram.com/midnightpulse',
@@ -252,5 +298,28 @@ export const artistsData = [
       //   year: '2023'
       // }
     ]
-  }
+  }, {
+    id: 'Pavithradhananjani',
+    name: 'Pavithra Dhananjani',
+    genre: 'Pop , Accoustic',
+    spot:'https://open.spotify.com/embed/artist/1BDgRUInxjvI7BrgASGJUd?utm_source=generator'   ,
+    yts:'https://www.youtube.com/embed/w7dRjYu2iVE?rel=0&start=42',
+    image: 'https://i.ibb.co/GFNKwJD/466972604-1562834851782240-2702262148569941040-n.jpg',
+    coverImage: 'https://i.ibb.co/0XvZ9qk/132047307-460259485373121-213083383706088679-n.jpg',
+    bio: "Meet Wolfer, the dynamic DJ/Producer, composer, and mentor from Sri Lanka. Born in 2001, his musical journey started at 14, fueled by an unyielding passion.Specializing in Dance/Electronic, Future Bass, House Music, and EDM, Wolfer collaborates with Sri Lanka's top artists. In 2023, he showcased his brilliance in the Rider film, directed by Rajith Hiran and produced by Anushka Idunil.As founder of SD MUSIC RECORDS and owner of a cutting-edge studio, Wolfer mentors emerging artists, sharing his wisdom. With a degree in Electronic Music Composition and advanced mixing/mastering, he collaborates with industry giants.In 2024, Wolfer's first live show for 3000 fans marked a milestone, showcasing his electrifying stage presence. This solidified his status as a force in electronic music. Embark on Wolfer's sonic journey, where beats tell stories and notes resonate with passion.",
+    social: {
+      instagram: 'https://instagram.com/midnightpulse',
+      twitter: 'https://twitter.com/midnightpulse',
+      youtube: 'https://youtube.com/midnightpulse'
+    },
+    website: 'https://midnightpulse.com',
+    releases: [
+      // {
+      //   id: 'midnight-hour',
+      //   title: 'Midnight Hour',
+      //   cover: 'https://images.unsplash.com/photo-1571330735066-03aaa9429d89?auto=format&fit=crop&q=80',
+      //   year: '2023'
+      // }
+    ]
+  },
 ];
