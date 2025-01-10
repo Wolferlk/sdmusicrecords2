@@ -6,11 +6,20 @@ const Hero = () => {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center">
       <div className="absolute inset-0">
-        <img
-          src="https://videos.pexels.com/video-files/5657831/5657831-uhd_2732_1440_25fps.mp4"
-          alt="Studio"
-          className="w-full h-full object-cover opacity-50"
+      <video
+        autoPlay
+        muted
+        loop
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source
+          src="https://videos.pexels.com/video-files/7586627/7586627-hd_1920_1080_24fps.mp4"
+          type="video/mp4"
         />
+      </video>
+        
+
+  
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/50" />
       </div>
       

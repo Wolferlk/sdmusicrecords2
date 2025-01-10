@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Music } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showNavbar, setShowNavbar] = useState(false);
 
   const navLinks = [
     { path: '/', label: 'Home' },
@@ -16,13 +17,36 @@ const Navbar = () => {
     { path: '/join-label', label: 'Join Label' },
   ];
 
+  // Effect to handle scroll visibility
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setShowNavbar(true); // Show navbar when scroll is greater than 50px
+      } else {
+        setShowNavbar(false); // Hide navbar when scroll is less than 50px
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="fixed w-full bg-black/50 backdrop-blur-md z-50">
+    <nav
+      className={`fixed w-full bg-black/50 backdrop-blur-md z-50 transition-transform ${
+        showNavbar ? 'transform translate-y-0' : 'transform -translate-y-full'
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center">
-            {/* <Music className="h-8 w-8 text-red-600" />*/}
-            <img src="https://i.ibb.co/Cw8gWB9/WHITE-BALL-LOGO.png" className="h-8 w-8" alt="" />
+            <img
+              src="https://i.ibb.co/Cw8gWB9/WHITE-BALL-LOGO.png"
+              className="h-8 w-8"
+              alt="SD Music Records Logo"
+            />
             <span className="ml-2 text-xl font-bold">SD MUSIC RECORDS</span>
           </Link>
 
