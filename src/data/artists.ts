@@ -5,9 +5,8 @@ export const artistsData = [
     genre: 'Pop , Accoustic',
     spot: 'https://open.spotify.com/embed/artist/5ajmxFKVTfNM0FZYRPCiko?utm_source=generator&theme=0',
     yts:'https://www.youtube.com/embed/0WbwxTb1i8s?si=4_A135D7qmMq3Gkm',
-    image: 'https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/455042860_381361151649254_7132611151953735098_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEqfpLreXfvF-2ANTi8itVrUx9xNGvmezZTH3E0a-Z7NvaaqUcx2iFQ8i8b7PZsWxPZFB30LooDbpV6TFizxmOn&_nc_ohc=SyJtl8a6dlQQ7kNvgHi8H78&_nc_zt=23&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=A6jiavR9ai_yI2mdWSjeZYn&oh=00_AYBUpEJ3qVu5frU4O_elUhJjnRhrh8b5gQRLUnzmFBGa0A&oe=673CA76E',
-    coverImage: 'https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/352184874_723913449488619_3752084457123172914_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFgygLybCAuumBljme3MpI0VxQ9A8_tpytXFD0Dz-2nK2lJRSPb4AMVYmovBRf_06CkyR-lyBHLK04lJ-Eh2cvK&_nc_ohc=V4KeNKHQaA8Q7kNvgG9Dna2&_nc_zt=23&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=A1gO5ZKSUUzJMFyX22vf9ys&oh=00_AYDIqTzUL3CkF8LGPC5sC3KRzrabqzf31n351QSGDdRuuQ&oe=673C80CC',
-    bio: 'We Are Brothers" is a talented music artist team based in Sri Lanka, dedicated to producing remarkable cover songs with a vision to venture into original compositions in the future. The group comprises gifted individuals including Amalsha Sapumal, Oshen Walimuni, Vishen Sanjana, Buwneka Hasaranga, Kavindu Nipun, Yehan Yugantha, Sasindu Diluranga ,Pasindu Hashan, Malindu Ishan, and Oshada Vihanga.As of 2023, "We Are Brothers" has reached a significant milestone by signing a contract with SD Music Records, a renowned music label, which is expected to provide them with valuable opportunities and exposure in the industry.Their harmonious blend of talents and creative abilities has earned them a strong following, and they continue to captivate audiences with their soulful renditions of popular songs. With the support of SD Music Records, they are excited to embark on a journey to create and release original music, aiming to further establish themselves as prominent figures in the Sri Lankan music scene.',
+    image: 'https://ibb.co/Xpyf22L',
+    coverImage: 'https://i.ibb.co/8BvkrbK/Weare.jpg',
     social: {
       instagram: 'https://instagram.com/lunaeclipse',
       spotify: 'https://open.spotify.com/artist/5ajmxFKVTfNM0FZYRPCiko?si=vEBrPHsYQZKt_yuk-YUHmg', 
