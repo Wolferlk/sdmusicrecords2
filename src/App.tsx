@@ -13,6 +13,7 @@ import StudioPricing from './pages/StudioPricing';
 import SubmitDemo from './pages/SubmitDemo';
 import AboutUs from './pages/AboutUs';
 import JoinLabel from './pages/JoinLabel';
+import Support from './pages/MonetizationDetails';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/join-label" element={<JoinLabel />} />
           <Route path="/allstudios" element={<AllStudios />} />
           <Route path="/allstudios/:id" element={<StudioProfile />} />
+          <Route path="/support" element={<Support />} />
         </Routes>
         <Footer />
       </div>
